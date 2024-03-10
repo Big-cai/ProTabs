@@ -5,18 +5,6 @@ import ProTabs from "@/components/ProTabs";
 function Index() {
 const [activeTab,setActiveTab] = useState(0)
 
-  const dataTest = [
-    { title: '手机', id: 1 },
-    { title: '电脑', id: 2 },
-    { title: '平板', id: 3 },
-    { title: '智慧屏', id: 4 },
-    { title: '穿戴', id: 5 },
-    { title: '耳机音箱', id: 6 },
-    { title: '全屋智能', id: 7 },
-    { title: '路由器', id: 8 },
-    { title: 'HarmonyOS 4', id: 9 }
-  ]
-
   const allTabs = [
     {
       title: "Top Categories",
@@ -55,17 +43,12 @@ const [activeTab,setActiveTab] = useState(0)
         { url: "/image/Parts_airIntakes.jpg", title: "Suspension" },
         { url: "/image/Parts_airConditioning.jpg", title: "AirConditioning" },
         { url: "/image/Parts_driveline.jpg", title: "Driveline" },
-
         { url: "/image/Parts_cooling.jpg", title: "Engine Cooling" },
         { url: "/image/Parts_steering.jpg", title: "Steering" },
         { url: "/image/Parts_fuelDelivery_.jpg", title: "fuel Delivery" },
         { url: "/image/Parts_transmission.jpg", title: "Transmission" },
         { url: "/image/Parts_ignition.jpg", title: "Ignition" },
-
-        {
-          url: "/image/Parts_chargingStarting.jpg",
-          title: "Starting & Charging",
-        },
+        {url: "/image/Parts_chargingStarting.jpg",title: "Starting & Charging",},
         { url: "/image/Parts_emission.jpg", title: "Emission" },
         { url: "/image/Parts_performance.jpg", title: "Performance Chips" },
         { url: "/image/Parts_replacement.jpg", title: "Replacement" },
@@ -84,57 +67,6 @@ const [activeTab,setActiveTab] = useState(0)
     { title: "Audio", id: 8, chilren: [] },
     { title: "Automotive Tools", id: 9, chilren: [] },
   ];
-
-  const list = [
-      [
-          {url: '/image/11.jpg',title:'Custom Wheels'},
-          {url: '/image/22.jpg',title:'Headlihts'},
-          {url: '/image/33.jpg',title:'Tires'},
-          {url: '/image/44.jpg',title:'Exhaust'},
-          {url: '/image/55.jpg',title:'Running Boards'},
-          {url: '/image/66.jpg',title:'Suspension'},
-          {url: '/image/77.jpg',title:'Floor Mats'},
-          {url: '/image/88.jpg',title:'Brakes'},
-          {url: '/image/99.jpg',title:'Seat Covers'},
-          {url: '/image/110.jpg',title:'Bed Accessories'},
-          {url: '/image/120.jpg',title: 'Costom Grilles'},
-          {url: '/image/130.jpg',title:'Tail Lights'},
-          {url: '/image/140.jpg',title:'Off-Road Bumpers'},
-          {url: '/image/150.jpg',title:'Body Kits'},
-          {url: '/image/160.jpg',title:'Air Intake'},
-          {url: '/image/160.jpg',title:'Chrome Trim'},
-          {url: '/image/170.jpg',title:'Custom Hoods'},
-          {url: '/image/180.jpg',title:'LED Lights'},
-          {url: '/image/190.jpg',title:'Car Covers'},
-          {url: '/image/210.jpg',title:'Towing & Hitches'},
-      ],
-      [
-          {url: '/image/Parts_Suspension.jpg',title:'Suspension'},
-          {url: '/image/Parts_Brakes.jpg',title:'Brakes'},
-          {url: '/image/Parts_Exhaust.jpg',title:'Exhaust'},
-          {url: '/image/Parts_engine.jpg',title:'Engine'},
-          {url: '/image/Parts_airIntakes.jpg',title:'Suspension'},
-          {url: '/image/Parts_airConditioning.jpg',title:'AirConditioning'},
-          {url: '/image/Parts_driveline.jpg',title:'Driveline'},
-      
-          {url: '/image/Parts_cooling.jpg',title:'Engine Cooling'},
-          {url: '/image/Parts_steering.jpg',title:'Steering'},
-          {url: '/image/Parts_fuelDelivery_.jpg',title:'fuel Delivery'},
-          {url: '/image/Parts_transmission.jpg',title:'Transmission'},
-          {url: '/image/Parts_ignition.jpg',title:'Ignition'},
-      
-          {url: '/image/Parts_chargingStarting.jpg',title:'Starting & Charging'},
-          {url: '/image/Parts_emission.jpg',title:'Emission'},
-          {url: '/image/Parts_performance.jpg',title:'Performance Chips'},
-          {url: '/image/Parts_replacement.jpg',title:'Replacement'},
-          {url: '/image/Parts_wiper.jpg',title:'Wiperension'},
-          {url: '/image/Parts_oils.jpg',title:'Oils,Fluids,Lubricants'},
-          {url: '/image/Parts_power.jpg',title:'Power Adders'},
-          {url: '/image/Parts_auto.jpg',title:'Repair Manuals'},
-          {url: '/image/Parts_racing.jpg',title:'Racing Gear'},
-        ]
-  ]
-
 
 
   return (
